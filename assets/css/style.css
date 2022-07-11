@@ -1,13 +1,16 @@
+/* Universal selector that modifies all html elements with the below conditions */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Modifies body elements with the below conditions */
 body {
     background-color: #d9dcd6;
 }
 
+/* Modifies the header elements with the below conditions  */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* Modifies the header h1 to display in inline-block and changes font-size */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Modifies header h1 seo with the color below */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Modifies the header div with the conditions below */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,15 +38,18 @@ body {
     font-size: 20px;
 }
 
+/* Modifies the header div list style with conditions below */
 .header div ul {
     list-style-type: none;
 }
 
+/* Modifies the header div list with inline-block and margin left */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Modifies all links with the conditions below */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -65,6 +74,7 @@ p {
     margin-left: 20px;
 }
 
+/* Modifies the search-engine-optimization with conditions below */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -74,15 +84,18 @@ p {
     color: #ffffff;
 }
 
+/* Modifies the search-engine-optimization image with conditions below */
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/* Modifies the search-engine-optimization header with conditions below */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Modifies the social-media-marketing section with conditions below */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -92,10 +105,12 @@ p {
     color: #ffffff;
 }
 
+/* Modifies the social-media-marketing image with conditions below */
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* Modifies the social-media-marketing header with conditions below */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -107,6 +122,7 @@ p {
     margin-right: 25px;
 }
 
+/* Modifies the online-reputation-management section with conditions below */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -116,10 +132,12 @@ p {
     color: #ffffff;
 }
 
+/* Modifies the online-reputation-management image with conditions below */
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/* Modifies the online-reputation-management header with conditions below */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -143,50 +161,57 @@ p {
     background-color: #2589bd;
 }
 
-/* Benefit-lead modification grouped together */
+/* Benefit-lead modification with conditions below*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Benefit-lead header modification with conditions below*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Benefit-lead image modification with conditions below*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* Benefit-brnad modification grouped together */
+/* Benefit-brand modification with condition below */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Benefit-brand header modification with condition below */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Benefit-brand image modification with condition below */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* Benefit-cost modification grouped together */
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
+/* Benefit-cost modification with conditions below */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Benefit-cost modification with conditions below */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Benefit-cost image modification with conditions below */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
@@ -201,6 +226,7 @@ p {
     text-align: center;
 }
 
+/* Footer header modified by the condition below */
 .footer h2 {
     font-size: 20px;
 }
